@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap');
+*{
+    /* margin: 0; */
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    /* width: 100%; */
+    background-color: #2F1893;
+    margin-left: 13rem;
+    margin-right: 13rem;
+    margin-top: 5rem;
+}
+nav{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    color: white;
+    font-family: 'DM Sans';
+    line-height: 31px;
+    letter-spacing: -0.2926828861236572px;
+    text-align: center;
+
+}
+.left{
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    gap: 2.6rem;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.fade{
+    color: #939191;
+
+}
+
+.btn{
+
+    font-family: 'DM Sans';
+font-weight: 500;
+font-size: 18px;
+line-height: 26px;
+align-items: center;
+background: #E93A7D;
+border: none;
+border-radius: 24px;
+padding: 8px 27px;
+color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    
+}
+.left_side{
+    width: 50%;
+    /* margin: 20px; */
+    margin-top: 6rem;
+}
+.left_side h2{
+    /* margin-top: 5rem; */
+    font-size: 60px;
+    font-family: 'DM Sans';
+    color: white;
+    font-weight: 800;
+    line-height: 70px;
+    letter-spacing: 2.5px;
+    text-transform: capitalize;
+}
+.main_para{
+    padding-right: 100px;
+}
+.main_para p{
+    /* padding-right: 100px; */
+    align-items: left;
+    color: white;
+    font-family: 'DM Sans';
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    width: 363px;
+height: 160px;
+top: 430px;
+left: 212px;
+
+}
+
+.lmore{
+    margin-top: 15px;
+    height: 55px;
+    border-radius: 29px;
+}
+.right_side{
+    max-width: 50%;
+    margin-top: 5.5rem;
+    background-color: white;
+    border-radius: 7px;
+    padding: 20px 70px;
+    width: 500px;
+}
+
+
+.right_side h2{
+    font-family: 'DM Sans';
+    letter-spacing: -0.4px;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    color: #1E0E62;
+
+}
+ 
+
+
+input{
+    width: 330px;
+    height: 50px;
+    padding: 5px 25px;
+    border-radius: 50px;
+    border: 1px solid rgb(192, 191, 191);
+    /* border: none; */
+    /* box-shadow: 2px 0px 4px 0px grey; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    color:#15143966;
+    font-family: 'DM Sans';
+    font-weight: 800px;
+    font-size: 18px;
+    line-height: 26px;
+    Top: 301px;
+    Left: 785px;
+    margin-bottom: 10px;
+    
+}
+
+.rectangle {
+    display: inline-flex;
+    margin: 0px 10px 0px 0px;
+    width: 24px; /* Set the width of the rectangle */
+    height: 24px; /* Set the height of the rectangle */
+    border-radius:6px;
+    background-color:#25DAC5;
+    /* Set the background color of the rectangle */
+}
+.rectangle i {
+    color: #1E0E62; 
+    margin: 5px;
+    font-size: 12px;
+}
+
+/* #or{
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 26px;
+    color:#15143966;
+    font-family: 'DM Sans';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.check{
+    margin: 8px 0px;
+    
+}
+
+.divider{
+    margin-top: 10px;
+    width: 141.57px;
+height: 3px;
+
+border: 2px rgb(192, 191, 191);
+background-color: rgb(232, 229, 229);
+
+}
+.or{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px;
+
+}
+
+.or span{
+    padding: 0px 10px;}
+
+.right_side p{
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 26px;
+    color:#15143966;
+    font-family: 'DM Sans';
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.check {
+display: inline-flex;
+align-items: center;
+}
+
+.sign_btn, .login_btn{
+    width: 330px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    font-family: 'DM Sans';
+    padding: 5px 25px;
+    border-radius: 50px;
+    border: none;
+    background: #482BE7;
+    color: white;
+}
+.login_btn{
+    background: #1DA1F2;
+}
+
+.signing{
+    text-align: center;
+font-family: DM Sans;
+
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: center;
+
+}
+.signing a{
+font-family: DM Sans;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: left;
+color: #25DAC5;
+margin-left: 8px
+;
+
+}
